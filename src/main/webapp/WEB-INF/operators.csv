@@ -1,0 +1,31 @@
+id, firstName, lastName, nationality, atk or def, codename, picture
+1, Seamus, Cowden, SAS, Attacker, Sledge,Sledge.jpg
+2, Mike, Baker, SAS, Attacker, Thatcher,Thatcher.jpg
+3, James, Porter, SAS, Defender, Smoke,Smoke.jpg
+4, Mark, Chandar, SAS, Defender, Mute,Mute.jpg
+5, Eliza, Cohen, FBI, Attacker, Ash,Ash.jpg
+6, Jordan, Trace, FBI, Attacker, Thermite,Thermite.jpg
+7, Miles, Campbell, FBI, Defender, Castle,Castle.jpg
+8, Jack, Estrada, FBI, Defender, Pulse,Pulse.jpg
+9, Emmanuelle, Pichon, GIGN, Attacker, Twitch,Twitch.jpg
+10, Gilles, Touré, GIGN, Attacker, Montagne,Montagne.jpg
+11, Gustave, Kateb, GIGN, Defender, Doc,Doc.jpg
+12, Julien, Nizan, GIGN, Defender, Rook,Rook.jpg
+13, Timur, Glazkov, Spetsnaz, Attacker, Glaz,Glaz.jpg
+14, Shuhrat, Kessikbayev, Spetsnaz, Attacker, Fuze,Fuze.jpg
+15, Maxim, Basuda, Spetsnaz, Defender, Kapkan,Kapkan.jpg
+16, Alexsandr, Senaviev, Spetsnaz, Defender, Tachanka,Tachanka.jpg
+17, Monika, Weiss, GSG9, Attacker, I.Q,IQ.jpg
+18, Elias, Kotz, GSG9, Attacker, Blitz,Blitz.jpg
+19, Marius, Streicher, GSG9, Defender, Jager,Jager.jpg
+20, Dominic, Brunsmeier, GSG9, Defender, Bandit,Bandit.jpg
+21, Sebastien, Cote, JFT2, Attacker, Buck,Buck.jpg
+22, Tina, Lin-Tsang, JFT2, Defender, Frost,Frost.jpg
+23, Craig, Jenson, Navy SEALs, Attacker, Blackbeard,Blackbeard.jpg
+24, Meghan, Castellano, Navy SEALs, Defender, Valkyrie,Valkyrie.jpg
+25, Vicente, Souza, BOPE, Attacker, Capitao,Capitao.jpg
+26, Taina, Pereira, BOPE, Defender, Caveira,Caveira.jpg
+27, Yumiko, Imagawa, SAT, Attacker, Hibana,Hibana.jpg
+28, Masaru, Enatsu, SAT, Defender, Echo,Echo.jpg
+29, Ryad-Ramires, Al-Hassar, GEO, Attacker, Jackal,Jackal.jpg
+30, Elena, Maria, GEO, Defender, Mira,Mira.jpg
