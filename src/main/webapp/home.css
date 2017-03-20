@@ -1,3 +1,15 @@
+
+* {
+	color: cyan;
+}
+
+input {
+ color:black;	
+}
+button{
+	color: black;
+}
+
 .homeButton{
 	text-decoration: none;
 	font-size: 45px;
@@ -10,20 +22,26 @@
 }
 
 #opName{
-	
 }
 
 #codeName{
+	
 }
 #ctu{
 }
 #side{
 }
 #opVideo{
+	float: right;
+}
+h2{
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
 }
 
 #bio{
-	background-color: lightgray;
+	background-color: black;
 }
 body{
   background-image: url(http://cdn.mos.cms.futurecdn.net/ERwmQs3HzvkfQuDFUTqdyH.jpg);
@@ -32,10 +50,18 @@ body{
 }
 
 #opIcon{
+	
 }
 
 #op{
 }
 
-#{
+#back{
+	text-align: left;
+	text-decoration: none;
+}
+
+#next{
+	text-align: right;
+	text-decoration: none;
 }

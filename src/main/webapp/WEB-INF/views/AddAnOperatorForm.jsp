@@ -3,9 +3,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<link rel="stylesheet" href="home.css">
+<!-- 	<link rel="stylesheet" href="home.css"> -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>New Operator</title>
+ <link rel="stylesheet" href="home.css">
+
 </head>
 <body>
 	<h1>Add your own operator</h1>
@@ -20,6 +22,8 @@
 		OperatorSide: <input type="text" name="side" /><br> 
 		Operator codeName: <input type="text" name="codeName" /><br> 
 		Operator bio:<input type="text" name="bio" /><br> 
+		Operator photo: <input type="text" name="picture"/>
+		Operator icon:<input type="text" name="icon"/>
 		
 		<button type="submit" value="Add Operator">Save changes</button>
 	</form>

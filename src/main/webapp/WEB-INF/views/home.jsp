@@ -4,8 +4,8 @@
 
 <html>
 <head>
-<!-- <link rel="stylesheet" href="home.css">
- -->
+ <link rel="stylesheet" href="home.css">
+
 <title>R6 Ops.${Operator.codeName}</title>
 </head>
 <body>
@@ -48,15 +48,15 @@
 			<div id="ctu">Member of the: "${Operator.nationality}" CTU</div> <br>
 			<div id="side">Attacker or Defender: ${Operator.side }</div><br>
 			<div id="bio">Operator bio: ${Operator.bio}</div><br>
-			<div id="opVideo">Operator video: ${Operator.operatorVideo }</div>
+			<div id="opVideo">${Operator.operatorVideo }</div>
 
 
 			<div id="opPhoto">
 			 <img style="width: 25%"
-				src="OperatorPics/${Operator.picture}" /> <img class="first" style="width: 20%"/></div>
+				src="${Operator.picture}" /> <img class="first" style="width: 20%"/></div>
 				
-				<div id="opIcon">
-				<img src="OperatorIcons/${Operator.icon }" /></div> <br>
+				
+				<img style="width: 20%"; src="${Operator.icon }" /> <br>
 			<form action="goToEditForm.do" method="POST">
 				<button type="submit" name="id" value="${Operator.id}">Edit
 					${Operator.codeName}</button>

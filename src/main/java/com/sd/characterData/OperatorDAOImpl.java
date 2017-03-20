@@ -34,8 +34,8 @@ public class OperatorDAOImpl implements OperatorDAO {
 				String nationality = tokens[3];
 				String side = tokens[4];
 				String codeName = tokens[5];
-				String picture = tokens[6];
-				String icon = tokens[7];
+				String picture = "OperatorPics/"+tokens[6];
+				String icon = "OperatorIcons/"+tokens[7];
 				String bio = tokens[8];
 				String operatorVideo = tokens[9];
 				Operator o = new Operator(id, firstName, lastName, nationality, side, codeName, picture, icon, bio, operatorVideo);

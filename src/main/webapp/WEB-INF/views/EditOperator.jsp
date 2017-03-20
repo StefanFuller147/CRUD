@@ -5,10 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Editing "${Operator.codeName} "</title>
+ <link rel="stylesheet" href="home.css">
+
 </head>
 <body>
+	<a class="homeButton" href="http://localhost:8080/C.R.U.D/">R6</a>
 <h1>Editing ${Operator.codeName}</h1>
-	<a href="http://localhost:8080/C.R.U.D/GetOperatorData.do?">Back to home page</a>
 	<form action="EditOperatorData.do" method="POST">
 		<input type="hidden" name="id" value="${Operator.id }"/><br>
 		Operator's First Name: <input type="text" name="firstName" value="${Operator.firstName}"/><br>
@@ -16,7 +18,6 @@
 		Operator CTU: <input type="text" name="nationality" value="${Operator.nationality}"/><br> 
 		Operator Side: <input type="text" name="side" value="${Operator.side}"/><br> 
 		Operator Codename: <input type="text" name="codeName" value="${Operator.codeName}"/><br> 
-		Operator bio: <input type="text" name="bio" value="${Operator.bio}"/><br>
 		<button type="submit" value="Edit Operator">Save changes to ${Operator.codeName}</button>
 		
 	</form>
