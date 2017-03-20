@@ -14,4 +14,5 @@ public interface OperatorDAO {
 	Operator getNextOperator(String id);
 	Operator getPreviousOperator(String id);
 	public Operator editAndSaveOperator(Operator operator);
+	List<String> getImages();
 }

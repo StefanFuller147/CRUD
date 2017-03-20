@@ -27,7 +27,7 @@ public class OperatorDAOImpl implements OperatorDAO {
 			System.out.println("in try");
 			while ((line = buf.readLine()) != null) {
 				System.out.println("in while");
-				String[] tokens = line.split(",");
+				String[] tokens = line.split("///");
 				String id = tokens[0];
 				String firstName = tokens[1];
 				String lastName = tokens[2];
@@ -35,7 +35,10 @@ public class OperatorDAOImpl implements OperatorDAO {
 				String side = tokens[4];
 				String codeName = tokens[5];
 				String picture = tokens[6];
-				Operator o = new Operator(id, firstName, lastName, nationality, side, codeName, picture);
+				String icon = tokens[7];
+				String bio = tokens[8];
+				String operatorVideo = tokens[9];
+				Operator o = new Operator(id, firstName, lastName, nationality, side, codeName, picture, icon, bio, operatorVideo);
 				operators.add(o);
 			}
 
@@ -184,5 +187,16 @@ public class OperatorDAOImpl implements OperatorDAO {
 		}
 		operators.remove(index);
 	}
+	
+	@Override
+	public List<String> getImages() {
+		List<String> pics = new ArrayList<>();
+		for (Operator operator : operators) {
+			pics.add(operator.getIcon());
+		}
+		return pics;
+	}
+	
+	
 
 }

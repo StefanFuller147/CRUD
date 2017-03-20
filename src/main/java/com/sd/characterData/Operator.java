@@ -8,10 +8,29 @@ public class Operator {
 	private String side;
 	private String codeName;
 	private String picture;
+	private String icon;
+	private String bio; 
+	private String operatorVideo;
 
 	
 
-	public Operator(String id, String firstName, String lastName, String nationality, String side, String codeName, String picture) {
+	public String getOperatorVideo() {
+		return operatorVideo;
+	}
+
+	public void setOperatorVideo(String operatorVideo) {
+		this.operatorVideo = operatorVideo;
+	}
+
+	public String getBio() {
+		return bio;
+	}
+
+	public void setBio(String bio) {
+		this.bio = bio;
+	}
+
+	public Operator(String id, String firstName, String lastName, String nationality, String side, String codeName, String picture, String icon, String bio, String operatorVideo) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
@@ -20,6 +39,17 @@ public class Operator {
 		this.side = side;
 		this.codeName = codeName;
 		this.picture = picture;
+		this.icon = icon;
+		this.bio = bio;
+		this.operatorVideo = operatorVideo;
+	}
+
+	public String getIcon() {
+		return icon;
+	}
+
+	public void setIcon(String icon) {
+		this.icon = icon;
 	}
 
 	public String getPicture() {
@@ -93,7 +123,8 @@ public class Operator {
 	@Override
 	public String toString() {
 		return "Operator [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", nationality="
-				+ nationality + ", side=" + side + ", codeName=" + codeName + ", picture=" + picture + "]";
+				+ nationality + ", side=" + side + ", codeName=" + codeName + ", picture=" + picture + ", icon=" + icon
+				+ ", bio=" + bio + ", operatorVideo=" + operatorVideo + "]";
 	}
 
 }

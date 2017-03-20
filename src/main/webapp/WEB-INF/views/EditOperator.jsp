@@ -16,6 +16,7 @@
 		Operator CTU: <input type="text" name="nationality" value="${Operator.nationality}"/><br> 
 		Operator Side: <input type="text" name="side" value="${Operator.side}"/><br> 
 		Operator Codename: <input type="text" name="codeName" value="${Operator.codeName}"/><br> 
+		Operator bio: <input type="text" name="bio" value="${Operator.bio}"/><br>
 		<button type="submit" value="Edit Operator">Save changes to ${Operator.codeName}</button>
 		
 	</form>

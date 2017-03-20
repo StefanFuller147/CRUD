@@ -69,6 +69,7 @@ public class OperatorsController {
 		System.out.println("test");
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("home");
+		mv.addObject("pics", opDAO.getImages());
 		mv.addObject("operatorList", opDAO.getOperators());
 		return mv;
 	}	
